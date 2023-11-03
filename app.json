@@ -1,0 +1,19 @@
+{
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/moneymeets/python-poetry-buildpack.git"
+        },
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/RohanDebroy/heroku-buildpack-wkhtmltopdf.git"
+        },
+        {
+            "url": "https://github.com/Lostmyname/heroku-buildpack-post-build-clean.git"
+        }
+    ]
+}
